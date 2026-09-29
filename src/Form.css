@@ -1,0 +1,48 @@
+.login_sec
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.button_box
+{
+    margin-top: 2em;
+    width: 50%;
+    height: 80em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.submit_button, .l_login_button, .login_submit_button
+{
+    height: 40%;
+    border: 1px solid orange;
+    background: none;
+    color: white;
+    border-radius: 2em;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.login_button{width: 70%;}
+.submit_button:hover, .login_submit_button:hover , .l_login_button:hover{background-color: rgb(189, 81, 27); transition: 0.3s;}
+
+input, select
+{
+    background: none;
+    color: white;
+    border: 1px solid rgb(255, 107, 53);
+    border-radius: 12px;
+    transition: 0.3s;
+}
+option{color: black;}
+input:hover
+{
+    width: 75%;
+    transition: 0.3s;
+}
+
